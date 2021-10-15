@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import dapundo from './dapundo.jpg';
+import dapundo from '../../assets/images/dapundo.jpg';
 
 const StylingComponent = () => {
   return (
-    <View style={{backgroundColor: 'gray', padding: 10, alignItems:'center'}}>
+    <View style={{backgroundColor: 'gray', padding: 10, alignItems: 'center'}}>
       <View style={styles.card}>
         <Image source={dapundo} style={styles.imageCard} />
         <Text style={styles.name}>david William Da Costa</Text>
